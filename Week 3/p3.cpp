@@ -4,7 +4,7 @@ using namespace std;
 
 //73. Set Matrix Zeros
 //A simple algorithm with O(m+n) space: Scan the columns and the rows, store all the rows and columns that has 0.
-//With constant space: Use the first column and row as the note. But we need to deal with the last part first.
+//With constant space: Use the first column and row as the note. But we need to deal with the rest part first.
 //Finally check if the first column/row should be 0.
 
 class Solution {
